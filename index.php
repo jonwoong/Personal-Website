@@ -27,10 +27,10 @@
   		<!-- NAVIGATION BAR -->
   		<nav>
   			<ul>
-  				<li class="nav-button"><a href="index.php?dc=about">ABOUT</a></li>
-  				<li class="nav-button"><a href="index.php?dc=courses">COURSES</a></li>
-  				<li class="nav-button"><a href="index.php?dc=projects">PROJECTS</a></li>
-  				<li class="nav-button"><a href="index.php?dc=contact">CONTACT</a></li>
+  				<li class="nav-button"><a class="link" href="index.php?dc=about">ABOUT</a></li>
+  				<li class="nav-button"><a class="link" href="index.php?dc=courses">COURSES</a></li>
+  				<li class="nav-button"><a class="link" href="index.php?dc=projects">PROJECTS</a></li>
+  				<li class="nav-button"><a class="link" href="index.php?dc=contact">CONTACT</a></li>
   			</ul>
   		</nav>
 
@@ -89,20 +89,20 @@
   			<!-- PROJECTS -->
   			<div class="dynamic-content" id="projects">
   				<div class="project-grid">
-  					<div class="project">
-  						<h3>Website</h3>
-  						<ul>
-	  						<li><a href="index.txt" target="_blank">HTML</a></li>
-	  						<li><a href="style.txt" target="_blank">CSS</a></li>
-	  						<li><a href="contact.txt" target="_blank">PHP</a></li>
-	  						<li><a href="main.txt" target="_blank">JavaScript</a></li>
-  						</ul>
-  						<p>Source code written (mostly) from scratch for the website you're currently viewing.</p>
-  					</div>
-            <div class="project">
-              <h3><a href="https://github.com/jonwoong/Web-Table-Scraper" target="_blank">Web Table Scraper using ScraPy</a></h3>
-              <p>A simple HTML table scraping program for using ScraPy</p>
-            </div>
+            <a class="link" href="https://github.com/jonwoong/Personal-Website" target="_blank">
+  					 <div class="project">
+    						<h3>Website</h3>
+                <img src="website-image.png">
+    						<p>Source code written (mostly) from scratch for the website you're currently viewing.</p>
+              </div>
+            </a>
+            <a class="link" href="https://github.com/jonwoong/Web-Table-Scraper" target="_blank">
+              <div class="project">
+                <h3>Web Table Scraper using ScraPy</h3>
+                <img src="scraper-image.png">
+                <p>A simple HTML table scraping program for using ScraPy</p>
+              </div>
+            </a>
   				</div>
   			</div> <!-- projects -->
 
