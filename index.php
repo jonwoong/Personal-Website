@@ -5,14 +5,19 @@
 <!doctype html>
 
 <html lang="en">
+<link href="style.css" type="text/css" rel="stylesheet">
 
 <head>
   <meta charset="utf-8">
   <title>Jonathan Woong</title>
-  <link href="style.css" type="text/css" rel="stylesheet">
   <meta name="description" content="Jonathan Woong">
   <meta name="author" content="Jonathan Woong">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <!----- SCRIPTS ----->
+
+  <!-- JQUERY -->
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> 
+  <!-- JAVASCRIPT -->
+  <script src="main.js"></script>
 </head>
 
 <body>
@@ -41,15 +46,18 @@
 
   			<!-- ABOUT -->
   			<div class="dynamic-content" id="about">
-  				<img src="me.jpg" id="floated" height="200" width="200"></img>
+  				<img src="me.JPG" id="floated" height="200" width="200"></img>
   				<ul>
   					<li><strong>Name:</strong> Jonathan Woong</li>
-  					<li><strong>Location:</strong> Oakland, California</li>
+  					<li><strong>Location:</strong> Bay Area, California</li>
   					<li><strong>Education:</strong> B.S. in Computer Science from UCLA</li>
-  					<li><strong>Homepage:</strong> <a href="index.html">https://jonathanwoong.com</a></li>
-  					<li><strong>Github:</strong> <a href="https://github.com/jonwoong">https://github.com/jonwoong</a></li> 
+  					<li><strong>Homepage:</strong> <a href="index.php">http://jonathanwoong.com</a></li>
+            <li><strong>Facebook:</strong> <a href="https://www.facebook.com/jon.woong">https://www.facebook.com/jon.woong</a></li> 
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jonathanwoong/">https://www.linkedin.com/in/jonathanwoong/</a></li>
+  					<li><strong>Github:</strong> <a href="https://github.com/jonwoong">https://github.com/jonwoong</a></li>
+            <li><strong>Flickr:</strong> <a href="https://www.flickr.com/people/jonwoongxangellee/">https://www.flickr.com/people/jonwoongxangellee/</a></li> 
   				</ul>
-  				<p> I created this website in order to further develop my programming skills and as proof of my participation in Twitter's <a href="https://twitter.com/_100DaysOfCode">#100DaysOfCode</a>.</p>
+  				<!-- <p> I created this website in order to further develop my programming skills and as proof of my participation in Twitter's <a href="https://twitter.com/_100DaysOfCode">#100DaysOfCode</a>.</p> -->
   			</div> <!-- about -->
 
   			<!-- COURSES -->
@@ -91,19 +99,40 @@
   				<div class="project-grid">
             <a class="link" href="https://github.com/jonwoong/Personal-Website" target="_blank">
   					 <div class="project">
-    						<h3>Website</h3>
+    						<h2>Website</h2>
                 <img src="website-image.png">
-    						<p>Source code written (mostly) from scratch for the website you're currently viewing.</p>
-              </div>
+    						<p>Source code written (mostly) from scratch for the website you're currently viewing</p>
+              </div> <!-- project -->
             </a>
+            <a class="link" href="https://github.com/jonwoong/Scrapy-Samples" target="_blank">
+              <div class="project">
+                <h2>Web Scraping Samples using ScraPy</h2>
+                <img src="scrapy.png">
+                <p>Python code to scrape from multiple, infinitely scrolling, dynamic, or viewstate pages</p>
+              </div> <!-- project -->
+            </a> 
             <a class="link" href="https://github.com/jonwoong/Web-Table-Scraper" target="_blank">
               <div class="project">
-                <h3>Web Table Scraper using ScraPy</h3>
+                <h2>Web Table Scraper using ScraPy</h2>
                 <img src="scraper-image.png">
                 <p>A simple HTML table scraping program for using ScraPy</p>
-              </div>
+              </div> <!-- project -->
             </a>
-  				</div>
+            <a class="link" href="https://github.com/jonwoong/MIPS" target="_blank">
+              <div class="project">
+                <h2>Single/Multicycle MIPS Softprocessor</h2>
+                <!-- <img src="scraper-image.png"> -->
+                <p>A MIPS softprocessor written in Python</p>
+              </div> <!-- project -->
+            </a>
+            <a class="link" href="https://github.com/jonwoong/ios-client" target="_blank">
+              <div class="project">
+                <h2>Twoefay: Two Factor Authentication</h2>
+                <!-- <img src="scraper-image.png"> -->
+                <p>The iOS client for two factor web authentication using Touch ID</p>
+              </div> <!-- project -->
+            </a>
+  				</div> <!-- project grid -->
   			</div> <!-- projects -->
 
   			<!-- CONTACT -->
@@ -123,7 +152,7 @@
   					<input type="email" id="email" name="email" placeholder="Your email address..."><br>
 
   					<label for="subject">Subject</label>
-  					<textarea id="subject" name="subject" placeholder="Say anything..." style="height:200px"></textarea><br>
+  					<textarea id="subject" name="subject" placeholder="Request resume or say anything..." style="height:200px"></textarea><br>
 
   					<input type="submit" name="submit" value="Submit">
   				</form>
@@ -136,13 +165,5 @@
   	<footer>
   	</footer>
   </div> <!----- container ----->
-
-  <!----- SCRIPTS ----->
-
-  <!-- JQUERY -->
-  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> 
-  <!-- JAVASCRIPT -->
-  <script src="main.js"></script>
-
 </body>
 </html>
